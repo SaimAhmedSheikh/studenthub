@@ -1,0 +1,230 @@
+﻿        .A1 {
+            color: black;
+            position: absolute;
+            top: 170px;
+            left: 240px;
+            font-size: 65px;
+        }
+
+        .A2 {
+            color: black;
+            position: absolute;
+            top: 235px;
+            left: 300px;
+            font-size: 25px;
+        }
+
+        .A3 {
+            color: brown;
+            position: absolute;
+            top: 90px;
+            left: 240px;
+
+        }
+
+        .A4 {
+            color: white;
+            padding: 10px 30px
+        }
+
+
+
+        .A6 {
+            color: white;
+            position: absolute;
+            bottom: 587px;
+            left: 850px;
+        }
+
+        .A7 {
+            color: white;
+            position: absolute;
+            bottom: 587px;
+            left: 900px;
+        }
+
+        .A8 {
+            color: black;
+            position: absolute;
+            top: 340px;
+            left: 345px;
+        }
+
+        .A9 {
+            color: black;
+            position: absolute;
+            top: 550px;
+            left: 220px;
+            font-size: 15px;
+
+        }
+
+        .A10 {
+            position: absolute;
+            bottom: 320px;
+            left: 200px;
+
+        }
+
+        .A11 {
+            position: absolute;
+            bottom: 183px;
+            left: 155px;
+            font-size: 18px;
+            color: brown;
+        }
+
+        .A12 {
+            position: absolute;
+            top: 430px;
+            left: 270px;
+            font-size: 18px;
+            color: brown;
+
+        }
+
+        .A13 {
+            position: absolute;
+            top: 430px;
+            left: 440px;
+            color: brown;
+            font-size: 18px;
+        }
+
+        .A14 {
+            position: absolute;
+            top: 430px;
+            left: 600px;
+            font-size: 18px;
+            color: brown;
+        }
+
+        .A15 {
+            position: absolute;
+            top: 430px;
+            left: 760px;
+            font-size: 18px;
+            color: brown;
+        }
+
+.nav {
+    display: block;
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    color: white;
+    font: 'Tahoma';
+    margin-top: 15px
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.nav li {
+  float: left;
+    
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+  background-color: darkorange;
+}
+.nav li:first-of-type a:hover {
+  background-color: orange;
+} 
+        #C2 {
+            background-color: gainsboro;
+            width: 95%;
+            height: 500px;
+            position: relative;
+            left: 25px;
+            top: 25px;
+
+        }
+
+        #C3 {
+            position: relative;
+            bottom: 440px;
+
+        }
+
+        #C4 {
+            background-color: deepskyblue;
+            width: 150px;
+            height: 90px;
+            position: relative;
+            bottom: 670px;
+            left: 100px;
+            opacity: 0.3;
+            text-align: center;
+        }
+
+        #C5 {
+            background-color: deepskyblue;
+            width: 150px;
+            height: 90px;
+            position: relative;
+            bottom: 760px;
+            left: 255px;
+            opacity: 0.3;
+        }
+
+        #C6 {
+            background-color: orange;
+            width: 150px;
+            height: 90px;
+            position: relative;
+            bottom: 850px;
+            left: 410px;
+
+        }
+
+        #C7 {
+            background-color: deepskyblue;
+            width: 150px;
+            height: 90px;
+            position: relative;
+            left: 565px;
+            bottom: 940px;
+            opacity: 0.3;
+        }
+
+        #C8 {
+            background-color: deepskyblue;
+            width: 150px;
+            height: 90px;
+            position: relative;
+            bottom: 1030px;
+            left: 720px;
+            opacity: 0.3;
+        }
+
+.background {
+    im
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.nav .right {
+    float: right;
+    font-size: 16px;
+    margin: 8px 12px;
+}
