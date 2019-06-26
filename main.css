@@ -86,3 +86,28 @@
     box-shadow: 0 0 1px 1px #999;
     border-radius: 1px;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 0 10px;
+    background: rgba(128, 128, 128, 0.7);
+    border-radius: 5px;
+    margin: 0 10px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    color: lightgray
+}
+
+.box:hover {
+    background-color: rgba(239, 160, 17, 0.73);
+    cursor: pointer;
+}
+
+.container2 {
+    width: 700px;
+    margin: 0 auto;
+    border: 10px solid transparent;
+
+}
