@@ -1,24 +1,27 @@
 ﻿body {
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+  background-size: cover;
+  font-size: 16px;
+  font-family: sans-serif;
+
+}
+.nav {
+  display: block;
+  background-color: #fd7e14;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-style: 'Tahoma';
+  margin-top: 15px;
+ }
+.nav .right {
+  float: right;
     font-size: 16px;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0
+    margin: 8px 12px;
 }
 
- 
-.nav {
-    display: block;
-    background-color: orange;
-    width: 100%;
-    height: 60px;
-    color: white;
-    font: 'Tahoma';
-    margin-top: 15px
-}
-.nav ul {
+.nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,29 +31,55 @@
 
 .nav li {
   float: left;
-    
 }
 
 .nav li a {
   display: block;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.nav li a:hover {
-  background-color: darkorange;
+.main-container {
+  display: block;
+  background-color: rgba(220, 220, 220, 0.89);
+  width: 95%;
+  height: 500px;
+  padding: 10px 30%;
+  width: auto;
 }
-.nav li:first-of-type a:hover {
-  background-color: orange;
-} 
 
-.nav .right {
-    float: right;
-    font-size: 16px;
-    margin: 8px 12px;
+.main-heading {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+}
+.search-container input[type='search']{
+     font-size: 18px;
+     width: 100%;
+     padding: 10px 20px;
+}
+
+.search-container input[type='button']{
+     font-size: 15px;
+     width: 20%;
+     padding: 8px 20px;
+     position: absolute;;
+     top: 5px;
+     right: 4px;
+     background-color: #fd7e14;
+     border: 1px solid #fd7e14;
+     color: #fff;
+     box-shadow: 0 0 1px 1px #999;
+     border-radius: 1px;
 }
 
 
